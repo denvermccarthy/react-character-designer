@@ -16,7 +16,7 @@ export default function Picker() {
         Middle
         <select id="middle-dropdown">
           <option value="blue">Blue</option>
-          <option value="dress">Fancy</option>
+          <option value="dress">Dress</option>
           <option value="pink">Pink</option>
           <option value="red">Red</option>
         </select>
