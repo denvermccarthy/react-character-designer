@@ -5,7 +5,7 @@ import Picker from '../../Presentational/Picker/Picker';
 
 export default function Main() {
   return (
-    <div>
+    <div className="main">
       <Character />
       <Picker />
     </div>
