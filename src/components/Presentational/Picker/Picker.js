@@ -1,6 +1,6 @@
 import React from 'react';
 import './Picker.css';
-export default function Picker() {
+export default function Picker({ setHead, setMiddle, setPants }) {
   return (
     <div className="picker">
       <label>
