@@ -1,8 +1,6 @@
 .footer {
   min-height: 30px;
-  position: fixed;
-  bottom: 0;
   height: 5vh;
   width: 100%;
-  background-color: aquamarine;
+  background-color: tan;
 }

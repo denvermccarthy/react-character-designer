@@ -3,6 +3,7 @@ import './Picker.css';
 export default function Picker({ setHead, setMiddle, setPants }) {
   return (
     <div className="picker">
+      Style your character!!
       <label>
         Head
         <select id="head-dropdown" onClick={(e) => setHead(e.target.value)}>
@@ -28,11 +29,6 @@ export default function Picker({ setHead, setMiddle, setPants }) {
           <option value="white">White Pants</option>
           <option value="blue">Blue Jeans</option>
         </select>
-      </label>
-      <label>
-        Add a catch phrase
-        <input id="catchphrase-input" />
-        <button id="catchphrase-button">Add</button>
       </label>
     </div>
   );
