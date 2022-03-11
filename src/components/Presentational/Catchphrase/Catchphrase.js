@@ -1,4 +1,5 @@
 import React from 'react';
+import './Catchphrase.css';
 
 export default function Catchphrase({
   setCatchphrases,
